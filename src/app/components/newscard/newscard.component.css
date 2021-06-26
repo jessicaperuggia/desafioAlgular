@@ -2,17 +2,18 @@
     max-width: 400px;
     display: flex;
     flex-direction: column; 
-    background-color: white;  
+    background-color: white;
+    margin: 10px;  
 }
 .card .card-title {
-    color:black;
+    color: #424242;
     padding: 10px;
 }
 .card .card-subtitle {
-    color: gray;
+    color: #9B9B9B;
     padding: 10px;
 }
 .card .card-readmore {
-    color: blue;
+    color: #0080BA;
     padding: 10px;
 }
