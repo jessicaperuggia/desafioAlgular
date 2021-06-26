@@ -1,0 +1,16 @@
+.category-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;    
+}
+.category-title {
+    font-weight: bold;    
+}
+.category-title, .category-item {
+    border-bottom: 1px solid #D3D3D3;
+    max-width: 150px;
+    padding: 5px;
+}
+.category-item {
+    color: #D3D3D3;
+}

@@ -7,19 +7,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NewscardComponent } from './components/newscard/newscard.component';
 
 import { MatCardModule} from '@angular/material/card';
-import {MatGridListModule, MatGridTile} from '@angular/material/grid-list/'
+import { MatGridListModule } from '@angular/material/grid-list/';
+import { CategorylistComponent } from './components/categorylist/categorylist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewscardComponent
+    NewscardComponent,
+    CategorylistComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
