@@ -7,21 +7,24 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NewscardComponent } from './components/newscard/newscard.component';
 
 import { MatCardModule} from '@angular/material/card';
-import { MatGridListModule } from '@angular/material/grid-list/';
+import { MatIconModule } from '@angular/material/icon'
+
 import { CategorylistComponent } from './components/categorylist/categorylist.component';
+import { SearchbarComponent } from './components/searchbar/searchbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewscardComponent,
     CategorylistComponent,
+    SearchbarComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatGridListModule    
+    MatIconModule   
   ],
   providers: [],
   bootstrap: [AppComponent]
