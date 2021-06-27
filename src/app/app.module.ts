@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NewscardComponent } from './components/newscard/newscard.component';
 
-import { MatCardModule} from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon'
 
 import { CategorylistComponent } from './components/categorylist/categorylist.component';
@@ -24,8 +23,7 @@ import { SearchresultComponent } from './components/searchbar/searchresult/searc
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    MatCardModule,
+    BrowserAnimationsModule,   
     MatIconModule   
   ],
   providers: [],

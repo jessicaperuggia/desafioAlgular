@@ -13,3 +13,12 @@
 .category-item {
     color: #D3D3D3;
 }
+@media screen and (max-width: 700px) {
+    .category-list {
+      width: 100%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    
+}
