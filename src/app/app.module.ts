@@ -11,6 +11,7 @@ import { MatIconModule } from '@angular/material/icon'
 
 import { CategorylistComponent } from './components/categorylist/categorylist.component';
 import { SearchbarComponent } from './components/searchbar/searchbar.component';
+import { SearchresultComponent } from './components/searchbar/searchresult/searchresult.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SearchbarComponent } from './components/searchbar/searchbar.component';
     NewscardComponent,
     CategorylistComponent,
     SearchbarComponent,
+    SearchresultComponent,
   ],
   imports: [
     BrowserModule,
