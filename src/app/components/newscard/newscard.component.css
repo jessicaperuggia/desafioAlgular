@@ -1,28 +1,31 @@
 .card {
-    max-width: 400px;
-    display: flex;
-    flex-direction: column; 
-    background-color: white;
-    margin: 10px;
+    max-width: 390px;
+    display: flex;    
     border: 1px solid #cecece;
     box-shadow: 0 0 10px  #9B9B9B;
-    border-radius: 3%;  
-      
+    border-radius: 3%; 
+    margin-left: 20px;                
 }
 .card img {
     border-radius: 10px 3% 0 0;
+    width: 100%;    
 }
 .card .card-title {
     color: #424242;
-    padding: 10px;
-}
+    padding: 1px;
+}    
 .card .card-subtitle {
     color: #9B9B9B;
-    padding: 10px;
+    padding: 1px;
+    
 }
 .card .card-readmore {
     color: #0080BA;
-    padding: 10px;
+    padding: 1px;
+    
+}
+mat-grid-list {
+    width: 70%;    
 }
 @media screen and (max-width: 650px) {
     .card {
@@ -33,7 +36,7 @@
 
 @media screen and (max-width: 1024px) {
     .card {
-        width: 70%;
+        width: 100%;
         vertical-align: middle;       
     }
 }
