@@ -14,6 +14,9 @@ import { SearchbarComponent } from './components/searchbar/searchbar.component';
 import { SearchresultComponent } from './components/searchbar/searchresult/searchresult.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { CreatenewsComponent } from './components/createnews/createnews/createnews.component';
+import { NewsdetailsComponent } from './components/newsdetails/newsdetails/newsdetails.component';
+import { HomeComponent } from './views/home/home.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { HttpClientModule } from '@angular/common/http';
     CategorylistComponent,
     SearchbarComponent,
     SearchresultComponent,
+    CreatenewsComponent,
+    NewsdetailsComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
