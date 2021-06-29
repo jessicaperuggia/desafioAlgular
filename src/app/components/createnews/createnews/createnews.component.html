@@ -1,1 +1,11 @@
-<p>createnews works!</p>
+<div class="container">
+    <h1 class="title">Escreva aqui a sua notícia</h1>
+    <form>
+        <label>Título da notícia</label>
+        <input  [(ngModel)]="news.title" name="title">
+        <br>
+        <label>Conteúdo da notícia</label>
+        <input  class="news-content" [(ngModel)]="news.body" name="body">
+        <button (click)="createNews()" type="submit" class="button">Postar notícia</button>
+    </form>
+</div>

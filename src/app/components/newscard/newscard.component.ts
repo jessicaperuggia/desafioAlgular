@@ -15,8 +15,7 @@ export class NewscardComponent implements OnInit {
 
   ngOnInit(): void {
     this.newscardService.showNews().subscribe(newscards => {
-      this.newscards = newscards
-      console.log(newscards)     
+      this.newscards = newscards           
     })
   }
 
