@@ -25,7 +25,8 @@
     
 }
 mat-grid-list {
-    width: 70%;    
+    width: 70%;  
+    top: 0;  
 }
 @media screen and (max-width: 650px) {
     .card {
