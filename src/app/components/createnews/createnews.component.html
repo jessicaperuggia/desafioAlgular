@@ -1,0 +1,13 @@
+<div class="title">
+    <h1>Crie sua notícia</h1>
+</div>
+<div class="container">   
+    <form>
+        <label>Título da notícia</label>
+        <input  [(ngModel)]="news.title" name="title">
+        <br>
+        <label>Conteúdo da notícia</label>
+        <input  class="news-content" [(ngModel)]="news.body" name="body">
+        <button (click)="createNews()" type="submit" class="button">Postar notícia</button>
+    </form>
+</div>

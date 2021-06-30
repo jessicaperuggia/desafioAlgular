@@ -1,7 +1,14 @@
-<div class="card">
-    <img src="assets/img/covid.jpg" alt="imagem covid">
-    <h2 class="card-title">Coronavírus: como a doença é transmitida?</h2>
-    <h4 class="card-subtitle">Saiba o que é o coronavírus, em quanto tempo a doença pode se manisfestar e quais são os principais</h4>
-    <a href="#" class="card-readmore">Ler mais</a>	
+<div class="container">
+    <h1>Exibindo resultado de busca por "Covid 19"</h1>
+    <p class="subtitle">Encontramos um total de 20 resultados para sua busca</p>
 </div>
-
+<mat-grid-list cols="2" rowHeight="455">
+    <mat-grid-tile  class="card" *ngFor="let newscard of newscards">
+        <div class="card-container">
+            <img src="assets/img/covid.jpg" alt="imagem covid">
+            <h2 class="card-title"> {{ newscard.title }}</h2>
+            <h4 class="card-subtitle">{{ newscard.body }}</h4>
+            <a href="#" class="card-readmore" routerLink="/news/details">Ler mais</a>	
+        </div>   
+    </mat-grid-tile> 
+</mat-grid-list>

@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+    margin-left: 20px;    
+}
+.menu {
+    position: absolute;
+    right: 0;
+    top: 207px;
+    margin-right: 200px;
+}
