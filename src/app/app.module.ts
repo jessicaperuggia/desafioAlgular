@@ -12,9 +12,8 @@ import { FormsModule } from '@angular/forms';
 import { NewscardComponent } from './components/newscard/newscard.component';
 import { CategorylistComponent } from './components/categorylist/categorylist.component';
 import { SearchbarComponent } from './components/searchbar/searchbar.component';
-import { SearchresultComponent } from './components/searchbar/searchresult/searchresult.component';
-import { CreatenewsComponent } from './components/createnews/createnews/createnews.component';
-import { NewsdetailsComponent } from './components/newsdetails/newsdetails/newsdetails.component';
+import { CreatenewsComponent } from './components/createnews/createnews.component';
+import { NewsdetailsComponent } from './components/newsdetails/newsdetails.component';
 
 import { HomeComponent } from './views/home/home.component';
 
@@ -28,7 +27,6 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     NewscardComponent,
     CategorylistComponent,
     SearchbarComponent,
-    SearchresultComponent,
     CreatenewsComponent,
     NewsdetailsComponent,
     HomeComponent,

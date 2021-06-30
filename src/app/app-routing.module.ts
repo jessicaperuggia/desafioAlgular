@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CreatenewsComponent } from './components/createnews/createnews/createnews.component';
+import { CreatenewsComponent } from './components/createnews/createnews.component';
 import { NewscardComponent } from './components/newscard/newscard.component';
-import { NewsdetailsComponent } from './components/newsdetails/newsdetails/newsdetails.component';
+import { NewsdetailsComponent } from './components/newsdetails/newsdetails.component';
 
 const routes: Routes = [
   {

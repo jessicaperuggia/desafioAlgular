@@ -1,10 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.container .subtitle {
+    color: #9B9B9B;
+}
 .card {
     max-width: 390px;
     display: flex;    
     border: 1px solid #cecece;
     box-shadow: 0 0 10px  #9B9B9B;
     border-radius: 3%; 
-    margin-left: 20px;                
+    margin-left: 20px;                    
 }
 .card img {
     border-radius: 10px 3% 0 0;
@@ -39,5 +49,19 @@ mat-grid-list {
     .card {
         width: 100%;
         vertical-align: middle;       
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        text-align: center;
+        width: 100%;  
+        padding-top: 20px;     
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+       align-items: center;
     }
 }

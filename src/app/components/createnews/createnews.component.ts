@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { News } from '../../newscard/news.model';
-import { NewscardService } from '../../newscard/newscard.service';
+import { News } from '../newscard/news.model';
+import { NewscardService } from '../newscard/newscard.service';
 
 @Component({
   selector: 'app-createnews',
