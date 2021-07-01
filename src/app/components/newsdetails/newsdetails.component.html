@@ -1,20 +1,5 @@
-<!--
-<div class="container">
-    <h1 [(ngModel)]="newscard.title"></h1>    
+<h1 class="title">Leia a notícia completa</h1>
+<div [(ngModel)]="newscard.body" class="container">
+    <h2 class="card-title"> {{ newscard.title }}</h2>
+    <p class="card-subtitle">{{ newscard.body }}</p>
 </div>
-<div class="container-news">    
-    <p class="news">Notícias</p>
-</div>-->
-<div class="title">
-    <h1>Leia a notícia completa</h1>
-</div>
-<div class="container">   
-    <form>
-        <label>Título da notícia</label>
-        <input  [(ngModel)]="newscard.title" name="title">
-        <br>
-        <label>Conteúdo da notícia</label>
-        <input  class="news-content" [(ngModel)]="newscard.body" name="body">       
-    </form>
-</div>
-

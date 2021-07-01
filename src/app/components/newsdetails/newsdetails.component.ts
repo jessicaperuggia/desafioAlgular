@@ -18,10 +18,14 @@ export class NewsdetailsComponent implements OnInit {
   constructor(private newscardService: NewscardService, private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get('id');
-    //this.newscardService.showNewsById(id).subscribe((newscard) => {
-      // this.newscard = newscard;
-    //});
+    let id = this.route.snapshot.paramMap.get('id');
+
+    let id_news:string = id!;
+
+      this.newscardService.showNewsById(id_news).subscribe((newscard) => {
+        this.newscard = newscard;
+
+    });
   }
 
 }
