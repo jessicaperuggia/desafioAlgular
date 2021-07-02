@@ -1,20 +1,22 @@
-.container {
+.title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
-.container .subtitle {
+.subtitle {
     color: #9B9B9B;
 }
 .card {
-    max-width: 390px;
+    max-width: 400px;
+    height: 500px;
     display: flex;    
-    border: 1px solid #cecece;
+    border: 3px solid #cecece;
     box-shadow: 0 0 10px  #9B9B9B;
     border-radius: 3%; 
-    margin-left: 20px;                    
+    margin: 15px;
+    float: left;  
 }
 .card img {
     border-radius: 10px 3% 0 0;
@@ -22,46 +24,18 @@
 }
 .card .card-title {
     color: #424242;
-    padding: 1px;
+    padding: 5px;
 }    
 .card .card-subtitle {
     color: #9B9B9B;
-    padding: 1px;
+    padding: 5px;
     
 }
 .card .card-readmore {
     color: #0080BA;
-    padding: 1px;
+    padding: 5px;
     
 }
-mat-grid-list {
-    width: 70%;  
-    top: 0;  
-}
-@media screen and (max-width: 650px) {
-    .card {
-        width: 100%;
-    }
+
+
    
-}
-
-@media screen and (max-width: 1024px) {
-    .card {
-        width: 100%;
-        vertical-align: middle;       
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .container {
-        text-align: center;
-        width: 100%;  
-        padding-top: 20px;     
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .container {
-       align-items: center;
-    }
-}

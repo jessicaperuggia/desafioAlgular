@@ -1,14 +1,12 @@
-<div class="container">
+<div class="title">
     <h1>Exibindo resultado de busca por "Covid 19"</h1>
     <p class="subtitle">Encontramos um total de 20 resultados para sua busca</p>
 </div>
-<mat-grid-list cols="2" rowHeight="455">
-    <mat-grid-tile  class="card" *ngFor="let newscard of newscards">
-        <div class="card-container">
-            <img src="assets/img/covid.jpg" alt="imagem covid">
-            <h2 class="card-title"> {{ newscard.title }}</h2>
-            <h4 class="card-subtitle">{{ newscard.body }}</h4>
-            <a class="card-readmore" routerLink="/news/details/{{newscard.id}}">Ler mais</a>	
-        </div>   
-    </mat-grid-tile> 
-</mat-grid-list>
+<div  class="card" *ngFor="let newscard of newscards">
+    <div class="card-container">
+        <img src="assets/img/covid.jpg" alt="imagem covid">
+        <h2 class="card-title"> {{ newscard.title }}</h2>
+        <h4 class="card-subtitle">{{ newscard.body }}</h4>
+        <a class="card-readmore" routerLink="/news/details/{{newscard.id}}">Ler mais</a>	
+    </div>   
+</div>
