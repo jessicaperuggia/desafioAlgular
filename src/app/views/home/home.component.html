@@ -1,9 +1,16 @@
 <div class="main-container">
-    <div class="menu">        
-        <app-categorylist></app-categorylist>
-        <app-searchbar></app-searchbar>
+    <div class="title">
+        <h1>Exibindo resultado de busca por "Covid 19"</h1>
+        <p class="subtitle">Encontramos um total de 20 resultados para sua busca</p>
     </div>
-    <div class="container">
-        <router-outlet></router-outlet>
+    <div class="container-box">
+
+        <div class="container">
+            <router-outlet></router-outlet>
+        </div>  
+        <div class="menu">        
+            <app-categorylist></app-categorylist>
+            <app-searchbar></app-searchbar>
+        </div>
     </div>
 </div>

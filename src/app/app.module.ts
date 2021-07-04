@@ -18,7 +18,6 @@ import { NewsdetailsComponent } from './components/newsdetails/newsdetails.compo
 import { HomeComponent } from './views/home/home.component';
 
 import { MatIconModule } from '@angular/material/icon';
-import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
@@ -38,7 +37,6 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     HttpClientModule,
     FormsModule,
     MatIconModule,
-    MatGridListModule,
     MatSnackBarModule
   ],
   providers: [],

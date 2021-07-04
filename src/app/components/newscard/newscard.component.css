@@ -9,14 +9,15 @@
     color: #9B9B9B;
 }
 .card {
-    max-width: 400px;
+    max-width: 400px;    
     height: 500px;
     display: flex;    
     border: 3px solid #cecece;
     box-shadow: 0 0 10px  #9B9B9B;
     border-radius: 3%; 
-    margin: 15px;
-    float: left;  
+    margin: 0 15px;
+    float: right; 
+    border: 5px solid yellow;
 }
 .card img {
     border-radius: 10px 3% 0 0;
@@ -29,30 +30,8 @@
 .card .card-subtitle {
     color: #9B9B9B;
     padding: 5px;
-    
 }
 .card .card-readmore {
     color: #0080BA;
     padding: 5px;
-    
 }
-@media screen and (max-width: 576px) {
-   .card{
-       width: 100%;      
-   }
-   .card-container {
-       display: block;
-       width: 100%;
-          
-   }
-}
-
-@media screen and (max-width: 768px) {
-    
-}
-
-@media screen and (max-width: 980px) {
-    
-}
-
-   
