@@ -12,21 +12,25 @@ export class NewscardService {
    baseUrl = "https://jsonplaceholder.typicode.com/posts";
 
   constructor(private http: HttpClient, private snackBar: MatSnackBar) {} 
-    
-    showNews(): Observable<News[]> {
-      return this.http.get<News[]>(this.baseUrl)
-    }
+  
+  showMenssage(msg: string): void {
+    this.snackBar.open(msg, 'X', {
+      duration: 3000,
+      horizontalPosition: "right",
+      verticalPosition: "top"
+    })
+  }
 
-    showMenssage(msg: string): void {
-      this.snackBar.open(msg, 'X', {
-        duration: 3000,
-        horizontalPosition: "right",
-        verticalPosition: "top"
-      })
-    }
-
-    createNews(news: News): Observable<News> {
-      return this.http.post<News>(this.baseUrl, news)
-    }   
-  } 
-
+  showNews(): Observable<News[]> {
+    return this.http.get<News[]>(this.baseUrl)
+  }  
+  
+  showNewsById(id: string): Observable<News> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.get<News>(url)
+  }
+  
+  createNews(news: News): Observable<News> {
+    return this.http.post<News>(this.baseUrl, news)
+  }
+} 

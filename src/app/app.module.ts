@@ -14,11 +14,11 @@ import { CategorylistComponent } from './components/categorylist/categorylist.co
 import { SearchbarComponent } from './components/searchbar/searchbar.component';
 import { CreatenewsComponent } from './components/createnews/createnews.component';
 import { NewsdetailsComponent } from './components/newsdetails/newsdetails.component';
+import { HeaderComponent } from './components/header/header.component';
 
 import { HomeComponent } from './views/home/home.component';
 
 import { MatIconModule } from '@angular/material/icon';
-import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
@@ -30,6 +30,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     CreatenewsComponent,
     NewsdetailsComponent,
     HomeComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,7 +39,6 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     HttpClientModule,
     FormsModule,
     MatIconModule,
-    MatGridListModule,
     MatSnackBarModule
   ],
   providers: [],

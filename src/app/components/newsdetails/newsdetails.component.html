@@ -1,6 +1,4 @@
-<div class="container">
-    <h1>Nome da notícia</h1>    
-</div>
-<div class="container-news">    
-    <p class="news">Notícias</p>
+<div [(ngModel)]="newscard.body" name="NewscardService" class="container">
+    <h2 class="card-title"> {{ newscard.title }}</h2>
+    <p class="card-subtitle">{{ newscard.body }}</p>
 </div>
