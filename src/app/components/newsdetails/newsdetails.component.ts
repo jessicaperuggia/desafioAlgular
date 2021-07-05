@@ -9,6 +9,7 @@ import { HeaderService } from '../header/header.service';
   templateUrl: './newsdetails.component.html',
   styleUrls: ['./newsdetails.component.css']
 })
+
 export class NewsdetailsComponent implements OnInit {
 
   newscard: News ={
@@ -38,5 +39,4 @@ export class NewsdetailsComponent implements OnInit {
 
     });
   }
-
 }

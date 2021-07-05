@@ -14,12 +14,12 @@ import { CategorylistComponent } from './components/categorylist/categorylist.co
 import { SearchbarComponent } from './components/searchbar/searchbar.component';
 import { CreatenewsComponent } from './components/createnews/createnews.component';
 import { NewsdetailsComponent } from './components/newsdetails/newsdetails.component';
+import { HeaderComponent } from './components/header/header.component';
 
 import { HomeComponent } from './views/home/home.component';
 
 import { MatIconModule } from '@angular/material/icon';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
