@@ -5,12 +5,18 @@
     padding-top: 100px;
     padding-bottom: 50px;   
 }
-.container form {
+.container {
     width: 700px;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    justify-content: flex-start;   
     font-weight: bold;
     font-size: 16px;
+    border: 5px solid black;
+}
+form {
+    display: flex;
+    flex-direction: column;   
 }
 .container form input{
     padding: 10px;
@@ -30,3 +36,15 @@
     margin: 10px 0;
     font-weight: bold;    
 } 
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 250px;     
+    }  
+}
+
+@media screen and (max-width: 1430px) {
+    .container {
+        width: 350px;     
+    }  
+}
