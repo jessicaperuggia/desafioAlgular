@@ -19,6 +19,7 @@ import { HomeComponent } from './views/home/home.component';
 
 import { MatIconModule } from '@angular/material/icon';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     CreatenewsComponent,
     NewsdetailsComponent,
     HomeComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
